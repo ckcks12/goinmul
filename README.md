@@ -43,7 +43,7 @@
 
 
 
-# What deos it do
+# What does it do
 
 Haven't you ever thought that submitting your code by *WEB* is quite **annoying**?
 
@@ -70,7 +70,7 @@ And then it asks you of what problem number you gonna submit.
 
 Don't worry, once you input the number, it would be saved automatically.
 
-# How many web sites deos it support?
+# How many web sites does it support?
 
 Now only one.
 
