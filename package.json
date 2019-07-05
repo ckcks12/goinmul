@@ -1,0 +1,72 @@
+{
+    "name": "goinmul",
+    "version": "0.1.2",
+    "description": "Competitive Programming Submit Helper",
+    "main": "./out/src/extension.js",
+    "repository": "http://github.com/ckcks12/goinmul",
+    "author": "ckcks12 <wyoducc@gmail.com>",
+    "license": "MIT",
+    "publisher": "ckcks12",
+    "displayName": "Goinmul",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "keywords": [
+        "goinmul",
+        "bakjoon",
+        "acmicpc",
+        "competitive programming",
+        "acmicpc.net"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "goinmul.baekjoon.login",
+                "title": "백준 로그인",
+                "category": "baekjoon login"
+            },
+            {
+                "command": "goinmul.baekjoon.submit",
+                "title": "백준 제출",
+                "category": "baekjoon submit"
+            }
+        ],
+        "configuration": {
+            "title": "고인물 설정 파일",
+            "properties": {
+                "goinmul.baekjoon.id": {"type": "string", "default": "", "description": "백준 아이디를 입력하세요"},
+                "goinmul.baekjoon.pw": {"type": "string", "default": "", "description": "백준 비밀번호를 입력하세요"},
+                "goinmul.baekjoon.lang": {"type": "string", "default": "cpp14", "markdownDescription": 
+                    "제출할 언어를 설정해주세요. \n- cpp (cpp14, cpp17)\n- c\n- java\n- python3\n- pypy3\n"},
+                "goinmul.baekjoon.open": {"type": "string", "default": "close", "markdownDescription": 
+                    "소스 공개 여부를 설정해주세요.\n- open : 공개\n- close : 비공개\n- onlyaccepted : 정답시 공개\n"}
+            }
+        }
+    },
+    "activationEvents": [
+        "onCommand:goinmul.test.msg",
+        "onCommand:goinmul.baekjoon.login",
+        "onCommand:goinmul.baekjoon.submit"
+    ],
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "tslint -p ./",
+        "watch": "tsc -w -p ./",
+        "test": "mocha --require ts-node/register test/**/*.test.ts"
+    },
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.0.10",
+        "@types/qs": "^6.5.3",
+        "@types/vscode": "^1.35.0",
+        "axios": "^0.19.0",
+        "chai": "^4.2.0",
+        "mocha": "^6.1.4",
+        "qs": "^6.7.0",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.2"
+    }
+}
