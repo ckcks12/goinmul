@@ -1,7 +1,7 @@
 {
     "name": "goinmul",
-    "version": "0.1.4",
-    "description": "Competitive Programming Submit Helper",
+    "version": "0.1.5",
+    "description": "백준 알고리즘 헬퍼",
     "main": "./out/src/extension.js",
     "repository": "http://github.com/ckcks12/goinmul",
     "author": "ckcks12 <wyoducc@gmail.com>",
@@ -13,10 +13,10 @@
     },
     "keywords": [
         "goinmul",
-        "bakjoon",
+        "고인물",
         "acmicpc",
-        "competitive programming",
-        "acmicpc.net"
+        "백준",
+        "baekjoon"
     ],
     "contributes": {
         "commands": [
