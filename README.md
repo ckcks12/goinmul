@@ -1,7 +1,6 @@
 # Goinmul 고인물
 
-![](https://ckcks12.github.com/goinmul/preview.gif)
-![](//github.com/ckcks12/goinmul/blob/master/preview.gif?raw=true)
+![preview](https://github.com/ckcks12/goinmul/blob/master/preview.gif?raw=true)
 
 ### What deos it do
 
