@@ -31,21 +31,21 @@
 
 현재 하나입니다.
 
-- [Baekjoon](https://acmicpc.net)
+-   [Baekjoon](https://acmicpc.net)
 
 # 컨트리뷰트
 
 악플만 아니면 감사합니다!
 
-- [Github](https://github.com/ckcks12/goinmul)
+-   [Github](https://github.com/ckcks12/goinmul)
 
+# Changelog
 
-
-
+-   _2019.07.21_ 준호가 만들어달라는 기능 만들어줌.
 
 # What does it do
 
-Haven't you ever thought that submitting your code by *WEB* is quite **annoying**?
+Haven't you ever thought that submitting your code by _WEB_ is quite **annoying**?
 
 Yeah, I think I already told ya why I made this :)
 
@@ -74,10 +74,10 @@ Don't worry, once you input the number, it would be saved automatically.
 
 Now only one.
 
-- [Baekjoon](https://acmicpc.net)
+-   [Baekjoon](https://acmicpc.net)
 
 # Contributes
 
 Thank you unless you tryna leave mean comment.
 
-- [Github](https://github.com/ckcks12/goinmul)
+-   [Github](https://github.com/ckcks12/goinmul)
